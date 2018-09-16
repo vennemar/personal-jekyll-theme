@@ -3,7 +3,11 @@
 
 url: "https://vennemar.github.io"
 
+<<<<<<< HEAD
 baseurl: /personal-jekyll-theme/
+=======
+baseurl: /personal-jekyll-theme
+>>>>>>> 93f1b0be48a5aeef50a884805ab96c75643d09c4
 
 # Google tracking id
 
@@ -46,8 +50,13 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
+<<<<<<< HEAD
   - text: "Welcome to my website."
   - text: "Feel free to look around."
+=======
+  - text: "The lower you fall, the higher you'll fly."
+  - text: "Where’s your will to be weird?"
+>>>>>>> 93f1b0be48a5aeef50a884805ab96c75643d09c4
 
 #me-img: "/img/profile-img.jpg"
 
@@ -147,8 +156,15 @@ social:
     url: "https://twitter.com/AlexVennemeyer"
   - title: "github"
     url: "https://github.com/vennemar/personal-jekyll-theme"
+<<<<<<< HEAD
 #  - title: "stack-overflow"
 #    url: "https://stackoverflow.com/users/10371983/alex-vennemeyer
+=======
+  - title: "bitcoin"
+    url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
+  - title: "rss"
+    url: "/feed.xml"
+>>>>>>> 93f1b0be48a5aeef50a884805ab96c75643d09c4
 
 ############
 # 404 page #
