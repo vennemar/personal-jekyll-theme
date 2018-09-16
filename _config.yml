@@ -3,7 +3,7 @@
 
 url: "https://vennemar.github.io"
 
-baseurl: /personal-jekyll-theme
+baseurl: /personal-jekyll-theme/
 
 # Google tracking id
 
@@ -39,15 +39,15 @@ background-img: "../img/intro-bg.jpg"
 ##############################
 
 dynamic-typing: True
-shuffle: True # Shuffle the lines.
+shuffle: False  # Shuffle the lines.
 loop: True
 loop-count: False # Set False for infinite loop, or set any number for finite loop.
 type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "The lower you fall, the higher you'll fly."
-  - text: "Where’s your will to be weird?"
+  - text: "Welcome to my website."
+  - text: "Feel free to look around."
 
 #me-img: "/img/profile-img.jpg"
 
@@ -147,10 +147,8 @@ social:
     url: "https://twitter.com/AlexVennemeyer"
   - title: "github"
     url: "https://github.com/vennemar/personal-jekyll-theme"
-  - title: "bitcoin"
-    url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
-  - title: "rss"
-    url: "/feed.xml"
+#  - title: "stack-overflow"
+#    url: "https://stackoverflow.com/users/10371983/alex-vennemeyer
 
 ############
 # 404 page #
