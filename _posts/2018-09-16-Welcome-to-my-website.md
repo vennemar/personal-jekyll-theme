@@ -6,7 +6,7 @@ category: Intro
 tags: [ 'Jekyll', 'WebStuff' ]
 ---
 
-### Welcome
+# Welcome
 
 Hey all,
 
