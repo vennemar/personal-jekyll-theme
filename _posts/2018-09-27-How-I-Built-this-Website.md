@@ -43,8 +43,8 @@ If you dont have Ruby installed, you can find details on the [ruby website](http
 
 Version Control is important for anyone working on a large project, or in large teams. Github is one of the most common version control platforms today. We'll be using github as the host for this website. If you don't have a github account, sign up for one at [https://github.com/]. 
 
-| command | purpose |
-|---------|---------|
+| command       | purpose           |
+|---------------|-------------------|
 |git init \<directory name\> | creates a new git versioned repository |
 |git status | prints out the current status of the working branch. includes information on files that have been staged for commit, files that have been removed from you repo, or have been edited and are not staged.|
 | git add \<filename\> | stages a file to be commited |
