@@ -8,12 +8,8 @@ tags: [ 'Jekyll', 'WebStuff' ]
 
 ### Welcome
 
-this is a sample post so the site doesn't break.
+Hey all,
 
-<pre><code class='python'>
-def test():
-   return True
+This is a post to kick off my website! In the blog section I plan to post various helpful guides, notes, and commentary on projects or assignments that I'm working on. And to generally use it as a place to talk about things related to tech and programming.
 
-</code></pre>
-
-the above code snippet is to test how things work.
+Hope to see you around!
