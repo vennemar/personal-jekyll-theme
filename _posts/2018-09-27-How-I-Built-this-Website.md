@@ -8,9 +8,9 @@ tags: [ 'Jekyll', 'WebStuff','Git']
 
 # Intro
 
-This Post details how I built this website using Jekkyl, and hosted it on Github Pages. This is a great tutorial for someone who has no knowlegde of how this works (like I did going in), and explains everything you need to know to create and host a website on github pages from a pre-exsisting jekyll template. If you already have knowladge of some of the tools used here, feel free to skip to the sections that apply to you. For those of you who want to know how to modify the layout and style of a templated site, I'll include that in a separate tutorial.
+This post details how I built this website using Jekkyl, and hosted it on Github Pages. This is a great tutorial for someone who has no knowlegde of how this works (like I did going in), and explains everything you need to know to create and host a website on github pages from a pre-exsisting jekyll template. If you already have knowledge of some of the tools used here, feel free to skip to the sections that apply to you. For those of you who want to know how to modify the layout and style of a templated site, I'll include that in a separate tutorial.
 
-========
+====================================================================================
 
 
 
@@ -37,12 +37,23 @@ I used Bundler to install and manage jekyll. If you have Ruby installed, then in
 $ gem install bundler
 </code></pre>
 
-If you dont have Ruby installed, you can find details on the [ruby website](https://www.ruby-lang.org/en/downloads/), or use the package manager of your choice.
+If you dont have Ruby installed, you can find details on the [ruby website](https://www.ruby-lang.org/en/downloads/), or you can install using the package manager of your choice.
 
 # Using Git for version Control
 
-Version Control is important for anyone working on a large project, or in large teams. Github is one of the most common version control platforms today. We'll be using github as the host for this website. If you don't have a github account, sign up for one
+Version Control is important for anyone working on a large project, or in large teams. Github is one of the most common version control platforms today. We'll be using github as the host for this website. If you don't have a github account, sign up for one at [https://github.com/]. 
+
+| command | purpose |
+|---------|---------|
+|git init \<directory name\> | creates a new git versioned repository |
+|git status | prints out the current status of the working branch. includes information on files that have been staged for commit, files that have been removed from you repo, or have been edited and are not staged.|
+| git add \<filename\> | stages a file to be commited |
+| git rm \<filename\> | removes a file from the list of tracked files |
+| git reset | reverts the current branch to the last commit |
+| git commit | makes a commit to the working branch of your repository |
+
 
 # Forking a Repo
+
 
 # Cusomizing Your Site
