@@ -9,7 +9,7 @@ tags: [ 'Jekyll', 'WebStuff','Git']
 ## Intro
 
 This Post details how I built this website using Jekkyl, and hosted it on Github Pages. This is a great tutorial for someone who has no knowlegde of how this works (like I did going in), and explains everything you need to know about using jekkyl, to create and host a website from a pre-exsisting template. For those of you who want to modify the layout and style of a templated site, I'll include that in a separate tutorial.
-
+______________________________________________________________________________
 ## Choosing Your Tools
 
 When it comes to creating and hosting your own website, there are a lot of options out there. As a busy Engineering student, I don't have time to spend hours upon hours working on and maintaining a website from scratch. But I want to make my website look like a proffesional piece of work. Website builders like Wix and Squarespace are either too expensive, or place limits on what you can do with your site.
@@ -17,7 +17,13 @@ When it comes to creating and hosting your own website, there are a lot of optio
 Jekyll was the happy medium for me. It's a framework that manages many of the details of creating and updating your website, while allowing you to configure the site up to the point of including your own HTML, CSS and JavaScript. You don't have to go that far to get a good looking site running, but having the freedom for originality is always a great option.  
 
 Using Jeykll is simple, You just install jekyll, fork an exsisting template from github, and in your own images and text, and you're done! Hosting your website on github pages is even easier, and I'll be showing you how to do that as well.
- 
+
+## Using the command line
+
+For this tutorial, I'll be using the Unix Command Line. If you are not familliar with Unix, or the command line in general, Here's a general summary of [The Unix Shell](https://swcarpentry.github.io/shell-novice/reference/). 
+
+For Mac and Linux, The default terminals are Unix Shells, but if you're on windowws, I recomend installing [Git Bash](https://gitforwindows.org/) as your unix shell.
+
 ## Installing Jekyll
 
 I used Bundler to install and manage jekyll. If you have Ruby installed, then installing Bundler should be pretty easy. Just enter the following into the command line:
@@ -26,9 +32,9 @@ I used Bundler to install and manage jekyll. If you have Ruby installed, then in
 $ gem install bundler
 </code></pre>
 
-If you dont have Ruby installed, you can find details on the [ruby website.](url goes here) 
+If you dont have Ruby installed, you can find details on the [ruby website.](https://www.ruby-lang.org/en/downloads/) or use the package manager of your choice.
 
-## Using the command line
+
 
 ## Using Git for version Control
 
