@@ -10,8 +10,10 @@ tags: [ 'Jekyll', 'WebStuff','Git']
 
 This Post details how I built this website using Jekkyl, and hosted it on Github Pages. This is a great tutorial for someone who has no knowlegde of how this works (like I did going in), and explains everything you need to know to create and host a website on github pages from a pre-exsisting jekyll template. If you already have knowladge of some of the tools used here, feel free to skip to the sections that apply to you. For those of you who want to know how to modify the layout and style of a templated site, I'll include that in a separate tutorial.
 
-Tutorial
 ========
+
+
+
 
 # Choosing Your Tools
 
