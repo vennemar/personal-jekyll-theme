@@ -8,7 +8,7 @@ tags: [ 'Jekyll', 'WebStuff','Git']
 
 # Intro
 
-This post details how I built this website using Jekkyl, and hosted it on Github Pages. This is a great tutorial for someone who has no knowlegde of how this works (like I did going in), and explains everything you need to know to create and host a website on github pages from a pre-exsisting jekyll template. If you already have knowledge of some of the tools used here, feel free to skip to the sections that apply to you. For those of you who want to know how to modify the layout and style of a templated site, I'll include that in a separate tutorial.
+This post details how I built this website using Jekkyl, and hosted it on Github Pages. This is a great tutorial for someone who has no knowlegde of how this works, and explains everything you need to know to create and host a website on github pages from a pre-exsisting jekyll template. If you already have knowledge of some of the tools used here, feel free to skip to the sections that apply to you. For those of you who want to know how to modify the layout and style of a templated site, I'll include that in a separate tutorial.
 
 ====================================================================================
 
@@ -54,18 +54,18 @@ using markdown
 
 using html
 
-<table style="width:100%">
+<table style="width:100%" class = 'table'>
     <tr>
         <th>Command</th>
-        <th>Prorpose</th>
+        <th>Purpose</th>
     </tr>
     <tr>
         <td>git init \<directory name\> </td>
         <td>creates a new git versioned repository</td>
     </tr>
     <tr>
-    git status
-    prints out the current status of the working branch. includes information on files that have been staged for commit, files that have been removed from you repo, or have been edited and are not staged.
+        <td>git status</td>
+        <td>prints out the current status of the working branch. includes information on files that have been staged for commit, files that have been removed from you repo, or have been edited and are not staged.</td>
     </tr>
     <tr>
         <td>git add \<filename\></td>
