@@ -54,7 +54,7 @@ using markdown
 
 using html
 
-<table style="width:100%" class = 'table'>
+<table style="width:100%">
     <tr>
         <th>Command</th>
         <th>Purpose</th>
