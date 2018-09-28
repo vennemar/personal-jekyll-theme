@@ -54,13 +54,13 @@ using markdown
 
 using html
 
-<table style="width:100%">
+<table style="width:100%" class = 'table'>
     <tr>
         <th>Command</th>
         <th>Purpose</th>
     </tr>
     <tr>
-        <td>git init \<directory name\> </td>
+        <td>git init <directory_name> </td>
         <td>creates a new git versioned repository</td>
     </tr>
     <tr>
@@ -68,11 +68,11 @@ using html
         <td>prints out the current status of the working branch. includes information on files that have been staged for commit, files that have been removed from you repo, or have been edited and are not staged.</td>
     </tr>
     <tr>
-        <td>git add \<filename\></td>
+        <td>git add <filename></td>
         <td>stages a file to be commited</td>
     </tr>
     <tr>
-        <td>git rm \<filename\></td>
+        <td>git rm <filename></td>
         <td>removes a file from the list of tracked files</td>
     </tr>
     <tr>
