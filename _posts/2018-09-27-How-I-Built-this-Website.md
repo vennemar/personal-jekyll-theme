@@ -13,8 +13,6 @@ This post details how I built this website using Jekkyl, and hosted it on Github
 ====================================================================================
 
 
-
-
 # Choosing Your Tools
 
 When it comes to creating and hosting your own website, there are a lot of options out there. As a busy Engineering student, I don't have time to spend hours upon hours working on and maintaining a website from scratch. But I want to make my website look like a proffesional piece of work. Website builders like Wix and Squarespace are either too expensive, or place limits on what you can do with your site.
@@ -43,14 +41,49 @@ If you dont have Ruby installed, you can find details on the [ruby website](http
 
 Version Control is important for anyone working on a large project, or in large teams. Github is one of the most common version control platforms today. We'll be using github as the host for this website. If you don't have a github account, sign up for one at [https://github.com/]. 
 
-| command       | purpose           |
-|---------------|-------------------|
-|git init \<directory name\> | creates a new git versioned repository |
-|git status | prints out the current status of the working branch. includes information on files that have been staged for commit, files that have been removed from you repo, or have been edited and are not staged.|
-| git add \<filename\> | stages a file to be commited |
-| git rm \<filename\> | removes a file from the list of tracked files |
-| git reset | reverts the current branch to the last commit |
-| git commit | makes a commit to the working branch of your repository |
+using markdown
+
+| command                      | purpose                                |
+|------------------------------|----------------------------------------|
+|git init \<directory name\>   | creates a new git versioned repository |
+|git status                    | prints out the current status of the working branch. includes information on files that have been staged for commit, files that have been removed from you repo, or have been edited and are not staged.|
+| git add \<filename\>         | stages a file to be commited |
+| git rm \<filename\>          | removes a file from the list of tracked files |
+| git reset                    | reverts the current branch to the last commit |
+| git commit                   | makes a commit to the working branch of your repository |
+
+using html
+
+<table style="width:100%">
+    <tr>
+        <th>Command</th>
+        <th>Prorpose</th>
+    </tr>
+    <tr>
+        <td>git init \<directory name\> </td>
+        <td>creates a new git versioned repository</td>
+    </tr>
+    <tr>
+    git status
+    prints out the current status of the working branch. includes information on files that have been staged for commit, files that have been removed from you repo, or have been edited and are not staged.
+    </tr>
+    <tr>
+        <td>git add \<filename\></td>
+        <td>stages a file to be commited</td>
+    </tr>
+    <tr>
+        <td>git rm \<filename\></td>
+        <td>removes a file from the list of tracked files</td>
+    </tr>
+    <tr>
+        <td>git reset</td>
+        <td>reverts the current branch to the last commit</td>
+    </tr>
+    <tr>
+        <td>git commit</td>
+        <td>makes a commit to the working branch of your repository</td>
+    </tr>
+</table> 
 
 
 # Forking a Repo
