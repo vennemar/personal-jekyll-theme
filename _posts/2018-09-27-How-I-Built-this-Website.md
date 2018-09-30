@@ -73,6 +73,7 @@ Here are some basic git commands:
     </tr>
 </table> 
 
+These commands should be enough to setup, and manage a basic git repository. But what if we want to start from a pre-made code base? Thats when we fork a repository.
 
 # Forking a Repo
 
