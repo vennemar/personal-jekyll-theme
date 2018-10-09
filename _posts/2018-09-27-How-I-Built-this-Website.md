@@ -77,5 +77,34 @@ These commands should be enough to setup, and manage a basic git repository. But
 
 # Forking a Repo
 
+The first step is to find a jekyll template that you want to fork, there are plenty of great options, so you should be able to find a good starting point for whatever you want your site to be.
+
+Once you have a template, it's time to fork the repository, and create a local clone on your machine. To fork a repository, navigate to that repository's page and click fork.
+
+now that you've created a fork, navigate to your fork of the jekyll template, click clone or download, and copy the url that pops up.
+
+In the command line on your machine enter the following:
+
+<pre><code class='bash'>
+$ git clone \<https://my-repository-url\>
+</code></pre>
+
+for the URL, you should use the address you copied from github. This wil create a local clone of the repository that you can make changes to, and use to update your main site.
 
 # Cusomizing Your Site
+
+Most of the built in customizations for your template will be found in the _config.yml file in you repository. open this file, and change the options to cusomize your template. 
+
+You can do more in depth customizations than this, but those will be covered in a later tutorial. Once you've added the cusomization you want, use the commands:
+
+<pre><code class='bash'>
+git add <filename> 
+</code></pre>
+
+and
+
+<pre><code class='bash'>
+git commit -m "some message about the changes you made" 
+</code></pre>
+
+to finalize and commit your changes. once you've commitied you changes locally, you can push them up to your origin branch on github, by using git push
