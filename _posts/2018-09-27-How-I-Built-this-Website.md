@@ -101,8 +101,7 @@ You can do more in depth customizations than this, but those will be covered in 
 git add \<filename\> 
 </code></pre>
 
-and
-
+and once you've added all your changed files, run:
 <pre><code class='bash'>
 git commit -m "some message about the changes you made" 
 </code></pre>
