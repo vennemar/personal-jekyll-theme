@@ -98,7 +98,7 @@ Most of the built in customizations for your template will be found in the _conf
 You can do more in depth customizations than this, but those will be covered in a later tutorial. Once you've added the cusomization you want, use the commands:
 
 <pre><code class='bash'>
-git add <filename> 
+git add \<filename\> 
 </code></pre>
 
 and
