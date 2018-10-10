@@ -48,7 +48,7 @@ Here are some basic git commands:
         <th>Purpose</th>
     </tr>
     <tr>
-        <td>git init [directory_name] </td>
+        <td>git init {directory_name} </td>
         <td>creates a new git versioned repository</td>
     </tr>
     <tr>
@@ -56,11 +56,11 @@ Here are some basic git commands:
         <td>prints out the current status of the working branch.</td>
     </tr>
     <tr>
-        <td>git add [filename] </td>
+        <td>git add {filename} </td>
         <td>stages a file to be commited</td>
     </tr>
     <tr>
-        <td>git rm [filename]</td>
+        <td>git rm {filename}</td>
         <td>removes a file from the list of tracked files</td>
     </tr>
     <tr>
@@ -86,7 +86,7 @@ now that you've created a fork, navigate to your fork of the jekyll template, cl
 In the command line on your machine enter the following:
 
 <pre><code class='bash'>
-$ git clone \<https://my-repository-url\>
+$ git clone {https://my-repository-url}
 </code></pre>
 
 for the URL, you should use the address you copied from github. This wil create a local clone of the repository that you can make changes to, and use to update your main site.
@@ -98,7 +98,7 @@ Most of the built in customizations for your template will be found in the _conf
 You can do more in depth customizations than this, but those will be covered in a later tutorial. Once you've added the cusomization you want, use the commands:
 
 <pre><code class='bash'>
-git add \<filename\> 
+git add {filename}
 </code></pre>
 
 and once you've added all your changed files, run:
