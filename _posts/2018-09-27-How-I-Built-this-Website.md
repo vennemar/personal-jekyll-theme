@@ -8,23 +8,23 @@ tags: [ 'Jekyll', 'WebStuff','Git']
 
 # Intro
 
-This post details how I built this website using Jekkyl, and hosted it on Github Pages. This is a great tutorial for someone who has no knowlegde of how this works, and explains everything you need to know to create and host a website on github pages from a pre-exsisting jekyll template. If you already have knowledge of some of the tools used here, feel free to skip to the sections that apply to you. For those of you who want to know how to modify the layout and style of a templated site, I'll include that in a separate tutorial.
+This post details how I built this website using Jekyll, and hosted it on Github Pages. It's a great tutorial for someone who has no knowlegde of how this process works, and explains everything you need to know to create and host a website on github pages from a pre-exsisting jekyll template. If you already have knowledge of some of the tools used here, feel free to skip sraight to the sections that apply to you. For those of you who want to know how to modify the layout and style of a templated site, I'll include that information in a separate tutorial.
 
 <hr>
 
 # Choosing Your Tools
 
-When it comes to creating and hosting your own website, there are a lot of options out there. As a busy Engineering student, I don't have time to spend hours upon hours working on and maintaining a website from scratch. But I want to make my website look like a proffesional piece of work. Website builders like Wix and Squarespace are either too expensive, or place limits on what you can do with your site.
+When it comes to creating and hosting your own website, there are a lot of options out there. As a busy student or professional, you may not the have time to spend hours upon hours working on and maintaining a website from scratch. But you still want to make your website look like a proffesional piece of work. You could use website builders like Wix and Squarespace, but I find those are either too expensive, or place limits on what you can do with your website.
 
-Jekyll was the happy medium for me. It's a framework that manages many of the details of creating and updating your website, while allowing you to configure the site up to the point of including your own HTML, CSS and JavaScript. You don't have to go that far to get a good looking site running, but having the freedom for originality is always a great option.  
+Jekyll was the happy medium for me. It's a framework that manages many of the details of creating and updating your website, while allowing you to configure the site up to the point of including your own HTML, CSS and JavaScript. You don't have to go that fa into things to get a good looking site running, but having the freedom for originality is always a great option.  
 
-Using Jeykll is simple, You just install jekyll, fork an exsisting template from github, add in your own images and text, and you're done! Hosting your website on github pages is even easier, and I'll be showing you how to do that as well.
+Using Jeykll is simple, You just install jekyll, fork an exsisting template from github, add in your own images and text, and you're done! Hosting your website on github pages is even easier, and I'll be showing you how to do all that in this post.
 
 # Using the command line
 
 For this tutorial, we'll be using the Unix Command Line. If you are not familliar with Unix, or the command line in general, Here's a general summary of [The Unix Shell](https://swcarpentry.github.io/shell-novice/reference/). 
 
-For Mac and Linux, the default terminals are unix shells, but if you're on windowws, I recomend installing [Git Bash](https://gitforwindows.org/) as your unix shell.
+For MacOS and Linux, the default terminals are unix shells, but if you're on windowws, I recomend installing [Git Bash](https://gitforwindows.org/) as your unix shell. This will give you unix command line sytax, and it comes with git installed by default, so it saves you the trouble of installing separately.
 
 # Installing Jekyll
 
@@ -77,9 +77,11 @@ These commands should be enough to setup, and manage a basic git repository. But
 
 # Forking a Repo
 
-The first step is to find a jekyll template that you want to fork, there are plenty of great options, so you should be able to find a good starting point for whatever you want your site to be.
+The first step is to find a jekyll template that you want to fork. There are plenty of great options, so you should be able to find a good starting point for whatever you want your site to be.
 
-Once you have a template, it's time to fork the repository, and create a local clone on your machine. To fork a repository, navigate to that repository's page and click fork.
+Once you have a template, it's time to fork the repository and create a local clone on your machine. To fork a repository, navigate to that repository's page and click  the fork button.
+
+![fork-repo-button]({!baseurl}//img//posts//fork-repo-img.png)
 
 now that you've created a fork, navigate to your fork of the jekyll template, click clone or download, and copy the url that pops up.
 
@@ -103,7 +105,9 @@ git add {filename}
 
 and once you've added all your changed files, run:
 <pre><code class='bash'>
-git commit -m "some message about the changes you made" 
+git commit -m "some message about the changes you made"
 </code></pre>
 
-to finalize and commit your changes. once you've commitied you changes locally, you can push them up to your origin branch on github, by using git push
+To finalize and commit your changes. once you've commitied you changes locally, you can push them up to your origin branch on github, by using git push.
+
+That's it, you've created a jekyll site from a template! Now that you have something basic set up, you can start hosting your website, or cutomize it further.
