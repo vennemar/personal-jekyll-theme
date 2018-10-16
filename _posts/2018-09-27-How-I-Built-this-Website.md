@@ -81,7 +81,7 @@ The first step is to find a jekyll template that you want to fork. There are ple
 
 Once you have a template, it's time to fork the repository and create a local clone on your machine. To fork a repository, navigate to that repository's page and click  the fork button.
 
-![fork-repo-button]({!baseurl}//img//posts//fork-repo-img.png)
+![fork-repo-button]({{site.baseurl}}/img/posts/fork-repo-img.png)
 
 now that you've created a fork, navigate to your fork of the jekyll template, click clone or download, and copy the url that pops up.
 
